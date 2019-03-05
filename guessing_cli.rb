@@ -13,7 +13,7 @@ def run_guessing_game
       if guessed_number.to_i == computerized_number
         puts "/You guessed the correct number!/"
       else
-        puts
+        puts "/The computer guessed #{guessed_number}./"
       end
     end
   end
