@@ -11,8 +11,9 @@ def run_guessing_game
     else
       computerized_number = rand(1..6)
       if guessed_number.to_i == computerized_number
-        
+        puts "/You guessed the correct number!/"
       else
+        puts
       end
     end
   end
